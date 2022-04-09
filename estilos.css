@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    background-image: url(imagens/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.leftSide{
+    width: 20%;
+    height: 100vh;
+    min-width: 300px;
+    background-color: #040b14;
+    color: #fff;
+}
+
+
+.rightSide{
+    width: 78%;
+    height: 100vh;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    top: 0%;
+    transform: translateY(-100%);
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    
+}
+
+/*cabeçalho*/
+header div{
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.cabecalho h1{
+    padding: 5% 0;
+}
+
+#imagemLogo{
+    width: 35%;
+    border-radius: 50%;   
+    box-shadow: 0px 0px 15px 0px #fff;
+    margin: 3%;
+}
+
+#imagemLogo:hover{   
+    box-shadow: 0px 0px 35px 0px #fff;
+}
+
+/*fim do cabeçalho*/
+
+
+
+/*logos redes sociais*/
+.navegacaoHorizontal{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+nav div div img { 
+    width: 45px;      
+    text-align: center;
+    margin: 0 auto;
+    background-color: #424242;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+.iconesRedes:hover{
+    transform: scale(1.2);
+    background-color: #fff;    
+    box-shadow: 0px 0px 25px 0px #fff;
+}
+/*fim logos redes sociais*/
+
+/*Menu lateral*/
+
+ul{
+    width: 95%;
+    margin: 10px;
+    height: 64vh;
+    padding-top: 5%;
+    border-radius: 20%;
+    list-style: none;
+}
+
+ul li{
+    text-align: center;
+    position: relative;
+    background-color: #040b14;
+    border-radius: 20px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px #fff;
+}
+
+ul li:hover{
+    transform: scale(1.05);
+    background-color: #424242;
+    transform: translate(15px,-8px);
+}
+
+.menuLateral{
+    width: 97%;
+    height: 10vh;
+}
+
+.logoMenu{
+    width: 8%;
+    position: absolute;
+    top: 50%; left: 5%;
+    transform: translateY(-50%);
+}
+
+
+#home{
+    width: 80px;
+    position: absolute;
+    left: 35%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+#about{
+    width: 80px;
+    position: absolute;
+    left: 35%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+#resume{
+    width: 80px;
+    position: absolute;
+    left: 35%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+#portofolio{
+    width: 80px;
+    position: absolute;
+    left: 35%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+#services{
+    width: 80px;
+    position: absolute;
+    left: 35%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logoMenu{    
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #fff;
+}
+
+/*lado direito*/
+
+.rightSide{
+    position: relative;
+}
+
+.rightSide article h1{
+    font-size: 50px;
+    color: #fff;   
+    padding: 2%;
+}
+
+.rightSide article h3 {
+    font-size: 20px;
+    color: #fff;
+    padding: 2%;
+}
+
+body .rightSide article{
+    width: 28%;
+    text-align: left;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-120%,-170%);
+    box-shadow: 0px 0px 10px 5px #090909;
+    border-radius: 20px;
+    padding:25px;
+}
+
+body .rightSide article:hover{    
+    box-shadow: 0px 0px 5px 0px #fff;
+}
+/* fim da edição do lado direito*/
+
+
+
+
